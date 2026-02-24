@@ -55,7 +55,15 @@ struct LoginView: View {
             
             Spacer()
         }
-        .padding(.top, 50)
+        .alert(isPresented: $viewModel.showAlert) {
+                    Alert(
+                        title: Text("Login Failed"),
+                        message: Text(viewModel.alertMessage),
+                        dismissButton: .default(Text("OK"))
+                    )
+                }
+                .padding(.top, 50)
+       
         // This is the magic router! If authentication succeeds, it covers the screen with our Ledger
         .fullScreenCover(isPresented: $viewModel.isAuthenticated) {
                     

@@ -7,12 +7,14 @@
 
 import SwiftUI
 
+
+
 struct TransactionRow: View {
     let transaction: Transaction
     
     var body: some View {
         HStack {
-            VStack(alignment: .leading) {
+            VStack(alignment: .leading, spacing: 4) {
                 Text(transaction.merchantName)
                     .font(.headline)
                 Text(transaction.date)

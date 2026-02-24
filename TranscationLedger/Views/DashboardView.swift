@@ -8,10 +8,11 @@
 import SwiftUI
 
 struct DashboardView: View {
-    // It accepts the list of transactions passed down from the main screen
     var transactions: [Transaction]
     
-    // A computed property that adds up all the transaction amounts
+    // This state controls whether the balance is visible
+    @State private var isBalanceVisible = false
+    
     var totalBalance: Double {
         transactions.reduce(0) { sum, transaction in
             sum + transaction.amount
@@ -20,16 +21,31 @@ struct DashboardView: View {
     
     var body: some View {
         VStack(spacing: 8) {
-            Text("Total Balance")
-                .font(.subheadline)
-                .foregroundColor(.secondary)
-                .textCase(.uppercase)
+            HStack(alignment: .center, spacing: 10) {
+                Text("Total Balance")
+                    .font(.subheadline)
+                    .foregroundColor(.secondary)
+                    .textCase(.uppercase)
+                
+                // The Eye Button
+                Button(action: {
+                    isBalanceVisible.toggle()
+                }) {
+                    Image(systemName: isBalanceVisible ? "eye" : "eye.slash")
+                        .foregroundColor(.secondary)
+                }
+            }
             
-            // Displays the calculated balance beautifully
-            Text(String(format: "$%.2f", totalBalance))
-                .font(.system(size: 42, weight: .bold, design: .rounded))
-                // If the balance drops below zero, it turns red!
-                .foregroundColor(totalBalance >= 0 ? .primary : .red)
+            // Show the real balance OR a masked string
+            if isBalanceVisible {
+                Text(String(format: "$%.2f", totalBalance))
+                    .font(.system(size: 42, weight: .bold, design: .rounded))
+                    .foregroundColor(totalBalance >= 0 ? .primary : .red)
+            } else {
+                Text("$••••••")
+                    .font(.system(size: 42, weight: .bold, design: .rounded))
+                    .foregroundColor(.primary)
+            }
         }
         .padding(.vertical, 25)
         .frame(maxWidth: .infinity)
