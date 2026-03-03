@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "88C8E7FE-67BB-47B1-915C-989CB2F9A9AE"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "EA4FE770-F0A7-48F5-AA9A-7D3ACC00B04F"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TranscationLedger/ViewModels/AuthViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "12"
+            endingLineNumber = "12"
+            landmarkName = "AuthViewModel"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "EA4FE770-F0A7-48F5-AA9A-7D3ACC00B04F - 7e3ff97fbbaf677c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TranscationLedger.AuthViewModel.deinit"
+                  moduleName = "TranscationLedger.debug.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ateu/Documents/Hemanth/ATEU/Upgrade/TranscationLedger/TranscationLedger/ViewModels/AuthViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0">
+               </Location>
+               <Location
+                  uuid = "EA4FE770-F0A7-48F5-AA9A-7D3ACC00B04F - 61f8c67617c74ecc"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TranscationLedger.AuthViewModel.__isolated_deallocating_deinit"
+                  moduleName = "TranscationLedger.debug.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ateu/Documents/Hemanth/ATEU/Upgrade/TranscationLedger/TranscationLedger/ViewModels/AuthViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0">
+               </Location>
+               <Location
+                  uuid = "EA4FE770-F0A7-48F5-AA9A-7D3ACC00B04F - df88a9fdc3a77a03"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TranscationLedger.AuthViewModel.__deallocating_deinit"
+                  moduleName = "TranscationLedger.debug.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ateu/Documents/Hemanth/ATEU/Upgrade/TranscationLedger/TranscationLedger/ViewModels/AuthViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0">
+               </Location>
+               <Location
+                  uuid = "EA4FE770-F0A7-48F5-AA9A-7D3ACC00B04F - 3eab0f2e608c09b3"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TranscationLedger.AuthViewModel.__allocating_init() -&gt; TranscationLedger.AuthViewModel"
+                  moduleName = "TranscationLedger.debug.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ateu/Documents/Hemanth/ATEU/Upgrade/TranscationLedger/TranscationLedger/ViewModels/AuthViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0">
+               </Location>
+               <Location
+                  uuid = "EA4FE770-F0A7-48F5-AA9A-7D3ACC00B04F - dd9da10091df4121"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TranscationLedger.AuthViewModel.init() -&gt; TranscationLedger.AuthViewModel"
+                  moduleName = "TranscationLedger.debug.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ateu/Documents/Hemanth/ATEU/Upgrade/TranscationLedger/TranscationLedger/ViewModels/AuthViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "22"
+                  endingLineNumber = "22">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
